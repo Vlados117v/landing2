@@ -16,6 +16,29 @@ $font: 'Open Sans', sans-serif;
 	}
 }
 
+.text-class{
+			.slogan_header {
+			font-size: 60px;
+			font-weight: 800;
+			line-height: 72px;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			margin-bottom: 0;
+		}
+		.slogan_text {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 28px;
+			width: 520px;
+			margin-top: 30px;
+		}
+		.slogan_btn{
+			@include btn(#ff2d2d,#ffffff,transparent);
+			margin-top: 52px;
+		}
+}
+
+
 
 body {
 	font-family: $font;
@@ -189,4 +212,73 @@ body {
 			font-weight: 100;		  
 		}
 	}	
+}
+
+.border_bottom{
+	border-bottom: 2px solid #ececec;
+}
+
+.feature{
+	padding-top: 105px;
+	padding-bottom: 130px;
+	.text {
+	@extend .text-class;
+	text-align: center;
+	.slogan_header{
+	font-size: 42px;
+	letter-spacing: 0.1px;
+	font-weight: 700;
+	}
+	.slogan_text {
+	margin: 0 auto;
+	}
+	width: 608px;
+	margin: 0 auto;
+
+	.redline{
+		width: 130px;
+		height: 2px;
+		background-color: #ff2d2d;
+		margin:0 auto;
+		margin-top: 30px;
+	}
+}
+
+	
+
+.feature_nav {
+	ul{	
+	width: 720px;
+	margin:0 auto;
+		li{
+			display: inline-block;
+			height: 90px;
+			padding: 35px 25px;
+			text-align: center;
+			}
+		a {
+			text-decoration: none;
+			color: #4c4c4c;
+			font-size: 14px;
+			line-height: 24px;
+			letter-spacing: 0.35;
+			font-weight: 700;
+		}
+}
+}
+
+
+.feature_pic_grid {
+
+	.feature_pic{
+	display: grid;		
+	grid-template-columns: 25% 25% 25% 25%;	
+	div {
+		width: 300px;
+		height: 300px;
+		background-color: #f5f0dd;
+		margin: 10px;
+	}
+	}
+}
 }
