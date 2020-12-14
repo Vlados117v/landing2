@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto; }
+
+.menu {
+  background-color: #313030;
+  height: 90px; }
+  .menu ul {
+    text-align: center; }
+    .menu ul li {
+      display: inline-block;
+      height: 90px;
+      padding: 35px 25px; }
+    .menu ul a {
+      text-decoration: none;
+      color: #e0e0e0;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.35;
+      font-weight: 700; }
+  .menu .red {
+    background-color: #ff3f40; }
+
+.header {
+  background-color: #f6f2f2; }
+
+.slogan {
+  margin-top: 105px;
+  padding-bottom: 122px;
+  display: flex;
+  justify-content: space-between; }
+  .slogan .slogan_video {
+    width: 610px;
+    display: inline-block;
+    position: relative; }
+    .slogan .slogan_video .video_item {
+      width: 551px;
+      height: 355px;
+      right: 0;
+      box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+      position: absolute;
+      right: 0;
+      background-image: url(../img/video1.png);
+      background-repeat: no-repeat;
+      background-size: cover; }
+
+.slogan_item {
+  display: inline-block;
+  width: 640px; }
+  .slogan_item .slogan_header {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0; }
+  .slogan_item .slogan_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 520px;
+    margin-top: 30px; }
+  .slogan_item .slogan_btn {
+    margin-top: 52px; }
+    .slogan_item .slogan_btn a {
+      padding: 21px 62px;
+      background-color: #ff2d2d;
+      font-size: 700;
+      text-decoration: none;
+      color: #ffffff;
+      border-radius: 5px;
+      border-color: transparent; }
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 110px;
+  padding-bottom: 70px; }
+  .section2 .slogan_header {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0.1px; }
+  .section2 .slogan_btn {
+    margin-top: 52px; }
+    .section2 .slogan_btn a {
+      padding: 21px 62px;
+      background-color: transparent;
+      font-size: 700;
+      text-decoration: none;
+      color: #ff2d2d;
+      border-radius: 5px;
+      border-color: #ff2d2d; }
+    .section2 .slogan_btn a {
+      border: 3px solid #ff2d2d; }
+  .section2 .sec2RightItems {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 610px; }
+    .section2 .sec2RightItems .RightItemHead {
+      padding-top: 70px;
+      position: relative;
+      font-size: 24px;
+      font-weight: 600;
+      letter-spacing: 0.1px; }
+    .section2 .sec2RightItems .RightItemText {
+      padding-top: 30px;
+      padding-bottom: 45px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+      letter-spacing: 0;
+      max-width: 275px; }
+    .section2 .sec2RightItems .cog:before {
+      content: "\f013";
+      font-family: 'icomoon' !important;
+      position: absolute;
+      top: 0;
+      font-size: 42px;
+      color: #ff2d2d;
+      font-weight: 100; }
+    .section2 .sec2RightItems .pen:before {
+      content: "\f040";
+      font-family: 'icomoon' !important;
+      position: absolute;
+      top: 0;
+      font-size: 42px;
+      color: #ff2d2d;
+      font-weight: 100; }
+    .section2 .sec2RightItems .diamond:before {
+      content: "\f219";
+      font-family: 'icomoon' !important;
+      position: absolute;
+      top: 0;
+      font-size: 42px;
+      color: #ff2d2d;
+      font-weight: 100; }
+    .section2 .sec2RightItems .truck:before {
+      content: "\f0d1";
+      font-family: 'icomoon' !important;
+      position: absolute;
+      top: 0;
+      font-size: 42px;
+      color: #ff2d2d;
+      font-weight: 100; }
